@@ -11,7 +11,7 @@ window = QWidget()
 
 window.setWindowTitle('Hello PyQt')
 window.resize(600,600)
-window.move(500,500)
+# window.move(500,500)
 
 window.show()
 ## Main Loop
