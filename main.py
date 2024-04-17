@@ -12,7 +12,9 @@ window = QWidget()
 window.setWindowTitle('Hello PyQt')
 window.resize(600,600)
 # window.move(500,500)
-
+btn = QPushButton('login' , window)
+btn.move(200,200)
+btn.resize(200,60)
 window.show()
 ## Main Loop
 app.exec_()
