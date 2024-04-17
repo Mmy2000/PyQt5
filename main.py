@@ -15,6 +15,12 @@ window.resize(600,600)
 btn = QPushButton('login' , window)
 btn.move(200,200)
 btn.resize(200,60)
+
+def button_clicked():
+    print('Button Clicked')
+
+btn.clicked.connect(button_clicked)
+
 window.show()
 ## Main Loop
 app.exec_()
